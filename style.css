@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face{
+    src:url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+    font-family:'Manrope';
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.advice-block{
+    position: absolute; /* 使用绝对定位 */
+    top: 50%; /* 距离顶部 50% */
+    left: 50%; /* 距离左侧 50% */
+    transform: translate(-50%, -50%); /* 通过平移来居中 */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:33%;
+    height:50%;
+    /*margin-top:250px;*/
+    /*padding-top:10%;*/
+}
+
+section{
+    position: relative;
+    display:block;
+    border-radius: 20px;
+    text-align: center;
+    background-color:  hsl(217, 19%, 24%);
+}
+
+.serial-number{
+    color: hsl(150, 100%, 66%);
+    /*margin-top:50px;*/
+    padding-top: 50px;
+    /*margin:0px;*/
+    /*padding-bottom: 20px;*/
+    font-family:'Manrope',sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#quote{
+    color:hsl(193, 38%, 86%);
+    font-size:28px;
+    font-family:'Manrope',sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;  /*<weight>: Use a value from 200 to 800*/
+    font-style: normal;
+    text-align:center;
+    padding-block: 30px;
+    /*padding-bottom: 20px;*/
+    padding-inline: 60px;
+}
+
+#info{
+    color:hsl(193, 38%, 86%);
+    font-family:'Manrope',sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;  /*<weight>: Use a value from 200 to 800*/
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-inline:30px;
+}
+
+.patterns{
+    display:flex;
+    justify-content: center;
+    height:40px;
+}
+
+.blank-space{
+    height:60px;
+}
+
+.generate-button{
+    position: absolute;
+    height:65px;
+    width:65px;
+    background-color:hsl(150, 100%, 66%);
+    border-radius:40px;
+    bottom: -10%;
+    /*将按钮的中心对准中间*/
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}
+
+/*引入绘图*/
+.rectangle {
+    height: 16px;
+    width: 6px;
+    background-color: hsl(193, 38%, 86%);
+    /*transform: scale(0.6);*/
+    /*padding:5px;*/
+    /*margin:15px;*/
+    border-radius: 10px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.line{
+    height:0.1px;
+    width:35%;
+    background-color: hsl(193, 38%, 86%);
+    border-radius: 10px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
